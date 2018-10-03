@@ -1,3 +1,4 @@
 
-int a = 12
-int b = 6
+a = 12
+b = 6
+c = a + b
