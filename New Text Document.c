@@ -1,5 +1,4 @@
 
-a = 12
-b = 6
-c = a + b
-d = c*a
+int a = 12
+int b = 6
+int c = a + b
