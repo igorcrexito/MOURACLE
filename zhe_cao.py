@@ -33,8 +33,8 @@ def pooling(x, ks, st, name):
 def vgg_block(x):
      
     # Block 1
-    z = conv(x, 64, 3, "conv1_1")
-    x = relu(z)
+    x = conv(x, 64, 3, "conv1_1")
+    x = relu(x)
     x = conv(x, 64, 3, "conv1_2")
     x = relu(x)
     x = pooling(x, 2, 2, "pool1_1")
